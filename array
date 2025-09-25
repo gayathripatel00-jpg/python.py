@@ -1,0 +1,6 @@
+import array
+num=array.array('i',[1,46,68,93,0,26,58])
+print(len(num))
+print(sum(num))
+print(max(num))
+print(min(num))
