@@ -1,0 +1,9 @@
+weight=float(input("enter your weight"))
+if (weight<=50):
+    print("under weight")
+elif (weight>50 and weight<=80):
+    print("normal")
+elif (weight>80):
+    print("over weight")
+else:
+    print("invalid input")
